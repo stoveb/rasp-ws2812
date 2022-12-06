@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 smart-leds = "0.3.0"
 ws281x-rpi = "0.0.1"
+rs_ws281x = "0.4.4"
