@@ -9,10 +9,10 @@ const DELAY: Duration = Duration::from_millis(1000);
 fn main() {
     // Construct a single channel controller. Note that the
     // Controller is initialized by default and is cleaned up on drop
+    
     // get the strand of LEDs on channel 1
     // let leds = controller.leds_mut(0);
-    // set the first LED to white (with the configured
-    // strip above, this is BGRW)
+    // set the first LED to white (with the configured strip above, this is BGRW)
     // leds[0] = [255, 255, 255, 0]
     // render it to the strand
     // controller.render();
