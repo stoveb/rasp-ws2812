@@ -56,7 +56,7 @@ fn main() {
         *led = [0, 0, 255, 0];
     }
     // let leds_clone = leds.clone();
-    println!("Green");
+    println!("Red");
     controller.render().unwrap();
     thread::sleep(DELAY*2);
 }
